@@ -53,6 +53,7 @@
         }
 
 
+
         header h1 {
             margin: 0;
             color: #FF00FF;
@@ -96,13 +97,44 @@
         .packages h2,
         .contact h2,
         .gallery h2 {
-            color: #e64a19;
-            border-bottom: 2px solid #ffab91;
+            color: #000000;
+            border-bottom: 2px solid #B38E58;
             padding-bottom: 10px;
         }
 
 
+.blinking-text {
+    position: absolute;
+    bottom: 20px; /* Adjust the position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: Dark Blue; /* Text color */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make text bold */
+    text-decoration: none; /* Remove underline from the link */
+    animation: blink 1s infinite; /* Apply blinking animation */
+}
+
+/* Keyframes for blinking effect */
 @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Optional: Add a hover effect for better accessibility */
+.blinking-text:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+<!! @keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }
@@ -112,7 +144,7 @@
     animation: blink 1s infinite;
 	 color: #FF0000;
 }
-
+-->
 
         .packages ul {
             list-style-type: none;
@@ -140,7 +172,7 @@
         }
 
         footer {
-            background-color: #ffccbc;
+            background-color: #B38E58;
             text-align: center;
             padding: 10px;
             margin-top: 40px;
@@ -156,9 +188,9 @@
 <body>
 
     <header>
-        <img src="https://raw.githubusercontent.com/Fotosmithph/Fotosmithphotography-/main/backgrdimage1.JPG" class="header-image">
-
- 
+        <img src="C:\Users\Admin\OneDrive\Desktop\practice can\website\backgrdimage1.jpg" alt="Business Logo"alt="Description of image" class="header-image">
+	 <a href="https://wa.me/message/4REMMVXDPTXPG1" class="blinking-text">Contact us or Chat with us @ 7045746532</a>
+	
 
 
 <div class="overlay"> 
@@ -166,7 +198,16 @@
             <h2> <p style="font-size: 30px; font-family: 'Lucida Calligraphy', cursive;">Welcome to</p></h2>
 		<t style="font-size: 60px; font-family: 'Gabriola', cursive;"><b>Fotosmith Photography!!!</b></t></h2>
             <p style="font-size: 20px;">Where we capture your journey from baby bump to your newborn's early precious moments and each milestone along the way.</p>
+<nav>
+        <a href="#about">About Me</a>
+        
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
         </div>
+
+
 
 	
 <!--          <h1>
@@ -174,80 +215,104 @@
  </h1> -->
 
 
-<h2>
-  <p class="blink"> Contact us @ +91 7045746532</p>
-</h2>
+<h3>
+ 
+</h3>
+
 
  <p style="font-family: 'Lucida Calligraphy', cursive;">
 </p>
+
+
     </header>
 
-    <nav>
-        <a href="#about">About me</a>
-        <a href="#packages">Packages</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact Us</a>
-    </nav>
+<header>
 
     <div class="content">
 
         <section id="about" class="about">
-            <h2>About me </h2>
+
+  
+
+            <h2> <p style="font-family: 'Harrington', cursive;">Shalaka Mirgal: From IT Professional to Newborn Photography Enthusiast</p></h2>
             <p>
-                Hi, I'm Shalaka Mirgal. I'm a mother to a beautiful 1-year-old daughter and have worked as a professional IT engineer for 10 years. 
+               Hi, I'm Shalaka Mirgal. I'm a mother to a beautiful 1-year-old daughter and have worked as a professional IT engineer for 10 years. 
 		    My passion for photography blossomed through my love for capturing moments with my daughter.
 		    I am a certified newborn and maternity photographer dedicated to ensuring your baby's safety and comfort while creating unique 
 		    and heartwarming setups. I specialize in documenting your journey from the excitement of your baby bump to your 
 		    little one's early precious moments and milestones.
 		    Don't miss the chance to freeze those fleeting moments of innocence and cuteness before they grow up—time flies, 
 		    and they won’t stay tiny forever. Investing in these captured moments and cherishing them later is truly remarkable. 
+           
             </p>
         </section>
 
-        <section id="packages" class="packages">
-            <h2>Newborn Photography Packages</h2>
-            <ul>
-                <li>
-                    <h3>Premium Package - ₹19,999</h3>
-                    <p>This package includes a full session with multiple setups, 20 professionally edited photos, and a
-                        custom photo album.</p>
-                </li>
-                <li>
-                    <h3>Standard Package - ₹12,999</h3>
-                    <p>This package includes a full session with 10 professionally edited photos and a custom USB drive
-                        with all high-resolution images.</p>
-                </li>
-                <li>
-                    <h3>Basic Package - ₹7,999</h3>
-                    <p>This package includes a short session with 5 professionally edited photos delivered digitally.</p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="gallery" class="gallery">
-            <h2>Gallery</h2>
+</header>
+     
+<header>     
+   <section id="gallery" class="gallery">
+            <h2><p style="font-family: 'Harrington', cursive;">My Work</p></h2>
             <div>
-                <img src="baby1.jpg" alt="Newborn baby photo 1">
-                <img src="baby2.jpg" alt="Newborn baby photo 2">
-                <img src="baby3.jpg" alt="Newborn baby photo 3">
+                <img src="1.jpeg" alt="Newborn baby photo 1">
+              <img src="2.jpeg" alt="Newborn baby photo 2">
+	<img src="3.jpeg" alt="Newborn baby photo 3">
+<img src="4.jpeg" alt="Newborn baby photo 4">
+<img src="5.jpeg" alt="Newborn baby photo 5">
+<img src="7.jpeg" alt="Newborn baby photo 7">
+<img src="8.jpeg" alt="Newborn baby photo 9">
+<img src="9.jpeg" alt="Newborn baby photo 10">
+<img src="11.jpeg" alt="Newborn baby photo 11">
+<img src="10.jpeg" alt="Newborn baby photo 11">
+
+<img src="13.jpeg" alt="Newborn baby photo 11">
+
+<img src="12.jpeg" alt="Newborn baby photo 11">
+<img src="14.jpeg" alt="Newborn baby photo 11">
+<img src="19.jpeg" alt="Newborn baby photo 11">
+<img src="20.jpeg" alt="Newborn baby photo 11">
+
+
+<img src="16.jpeg" alt="Newborn baby photo 11">
+<img src="17.jpeg" alt="Newborn baby photo 11">
+<img src="26.jpg" alt="Newborn baby photo 11">
+<img src="18.jpeg" alt="Newborn baby photo 11">
+
+
+<img src="21.jpeg" alt="Newborn baby photo 11">
+<img src="22.jpeg" alt="Newborn baby photo 11">
+
+<img src="24.jpeg" alt="Newborn baby photo 11">
+<img src="25.jpeg" alt="Newborn baby photo 11">
+
+
+              
                 <!-- Add more images as needed -->
             </div>
         </section>
 
+</header>
+
         <section id="contact" class="contact">
-            <h2>Contact Us</h2>
+<header>
+            <h2><p style="font-family: 'Harrington', cursive;">Contact Us</p></h2>
             <p>
                 I would love to hear from you! Please reach out to book a session or with any questions you may have.
             </p>
-            <p>Email: <a href="mailto:shalaka@example.com">shalaka@example.com</a></p>
-            <p>Phone: +91-12345-67890</p>
+ <p><b>Instagram:</b> <a href="https://www.instagram.com/fotosmith_photography?igsh=a2hjdzRyaTBiOGZo&utm_source=qr">fotosmith_photography</a></p>
+
+            <p><b>Email: </b><a href="mailto:fotosmithphotography1@gmail.com">fotosmithphotography1@gmail.com</a></p>
+
+            <p><b>What's app or Call.: </b> <a href= "https://wa.me/message/4REMMVXDPTXPG1">+91-7045746532</p>
+ <footer>
+        <p>© 2024 Newborn Photography by Shalaka Mirgal. All rights reserved.</p>
+    </footer>
+</header>
+
         </section>
 
     </div>
 
-    <footer>
-        <p>© 2024 Newborn Photography by Shalaka Mirgal. All rights reserved.</p>
-    </footer>
+   
 
 </body>
 
